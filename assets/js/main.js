@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() {
       document.querySelector(".loader-overlay").style.display = "none";
       document.querySelector(".content").style.display = "block";
-    }, 7000);
+    }, 3000);
   });
 
 
@@ -144,3 +144,4 @@ themeButton.addEventListener('click', () => {
 })
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+
